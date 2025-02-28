@@ -24,6 +24,11 @@ nav a {
 main {
   flex: 1 0 auto;
   padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
 }
 
 /* Footer */

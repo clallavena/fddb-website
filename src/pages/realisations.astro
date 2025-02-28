@@ -1,24 +1,7 @@
 ---
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Forge Du Dragon Blanc</title>
-  <script>
-    import "../scripts/menu.js";
-  </script>
-  <link rel="stylesheet" href="/src/styles/global.css">
-</head>
-<body>
-  <Header />
-  <main>
-    <h1>Les différentes réalisations</h1>
-    <p>Les réalisations</p>
-  </main>
-  <Footer />
-</body>
-</html>
+
+<BaseLayout pageTitle="Réalisations">
+  <p>Voici quelques unes de mes réalisations</p>
+</BaseLayout>
